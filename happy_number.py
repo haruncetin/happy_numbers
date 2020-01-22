@@ -1,4 +1,5 @@
 def is_happy(num):
+    # smallest happy number after 1 is 7
     while num > 6: # 1'den sonraki en küçük mutlu sayı 7
         result = 0
         digits = []
